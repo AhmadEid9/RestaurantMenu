@@ -1,0 +1,6 @@
+.location-div{
+    display: grid;
+    columns: 10% 2;
+    row-gap: 50px;
+    padding-top: 30%;
+}

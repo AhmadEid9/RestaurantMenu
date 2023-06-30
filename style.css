@@ -7,6 +7,13 @@
     justify-content: center;
     align-content: center;
 }
+#welcome-header{
+    text-align: center;
+    color: red;
+}
+#layout-div{
+    column-count: 3;
+}
 #home-div{
     text-align: center;
 }

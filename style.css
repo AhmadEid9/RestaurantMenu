@@ -1,4 +1,4 @@
-#location-div{
+#location_div{
     display: grid;
     columns: 10% 2;
     row-gap: 50px;

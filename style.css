@@ -1,6 +1,24 @@
 #location_div{
     display: grid;
-    columns: 10% 2;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: auto;
     row-gap: 50px;
-    padding-top: 30%;
+    padding-top: 10%;
+    justify-content: center;
+    align-content: center;
+}
+#home-div{
+    text-align: center;
+}
+#burgers-link{
+    border: solid;
+    border-color: red;
+}
+#hotdrinks-link{
+    border: solid;
+    border-color: red;
+}
+#sweets-link{
+    border: solid;
+    border-color: red;
 }

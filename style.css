@@ -24,15 +24,16 @@ img{
 #home-div{
     text-align: center;
 }
-#burgers-link{
+#link{
     border: solid;
     border-color: red;
 }
-#hotdrinks-link{
-    border: solid;
-    border-color: red;
-}
-#sweets-link{
-    border: solid;
-    border-color: red;
+.text-center {
+    color: red;
+    margin: 0;
+    padding:0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left:50%;
 }

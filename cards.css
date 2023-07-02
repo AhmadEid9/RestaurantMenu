@@ -28,7 +28,7 @@ img{
 }
 .burger-name{
   display: grid;
-  width: 180%;
+  width: 250%;
   grid-template-columns: repeat(2, 1fr);
   border: solid;
   border-color: red;

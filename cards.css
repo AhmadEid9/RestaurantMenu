@@ -8,10 +8,11 @@ img{
     grid-auto-rows: 100px;
     column-gap: 50px;
     row-gap: 150px;
-    justify-content: start;
+    align-content: start;
 }
 #card {
   display: grid;
+  width: 120%;
   grid-template-rows: max-content 200px 1fr;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
@@ -19,3 +20,37 @@ img{
   border-color: red;
   padding:  10px;
   }
+#single-card{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.burger-name{
+  display: grid;
+  width: 180%;
+  grid-template-columns: repeat(2, 1fr);
+  border: solid;
+  border-color: red;
+  justify-content: center;
+  grid-column: 1 / 3;
+  grid-row: 1;
+  padding: 20px;
+  padding-left: 30px;
+}
+.dressing {
+  color: red;
+  width: 150%;
+  grid-column: 1 / 2;
+  grid-row: 2;
+  border: solid;
+  border-color: red;
+}
+.other {
+  color: red;
+  width: 150%;
+  grid-column: 10 / 15;
+  grid-row: 2;
+  border: solid;
+  border-color: red;
+}
